@@ -1,8 +1,16 @@
-## Setup git 
+## Setting up Git and SSH
 
 * system  -all users
 * global  -single user all repositories
 * local   -single user single repository
+
+`ls -al ~/.ssh` Checks if existing SSH keys are present.
+
+`ssh-keygen -t ed25519 -C "your_email@example.com"` Create SSH keys.
+
+`eval "$(ssh-agent -s)"` Start ssh-agent.
+
+`ssh-add ~/.ssh/id_ed25519` Add SSH private key to the ssh-agent.
 
 `git config --global user.name "name"`
 
@@ -12,9 +20,9 @@
 
 `git ls-files` Shows files in staging area (index).
 
-## Working with git
+## Working with Git
 
-`git commit -am` Stages and commit in one step.
+`git commit -am` Stages and commits in one step.
 
 `git status -s` Short status.
 
@@ -23,3 +31,4 @@
 <br><picture><img width=500 src="https://user-images.githubusercontent.com/18624609/222594799-df7648d7-38b5-41b5-8085-326079b194ea.png"></picture>
 
 ## Fixing common mistakes
+
