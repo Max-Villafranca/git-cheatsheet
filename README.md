@@ -1,4 +1,5 @@
-### Setup git 
+## Setup git 
+
 * system  -all users
 * global  -single user all repositories
 * local   -single user single repository
@@ -11,8 +12,7 @@
 
 `git ls-files` Shows files in staging area (index).
 
----
-### Working with git
+## Working with git
 
 `git commit -am` Stages and commit in one step.
 
@@ -20,6 +20,6 @@
 
 `git mv "old name" "new name"` Renames files both on the working dir and staging area.
 
-![image](https://user-images.githubusercontent.com/18624609/222594799-df7648d7-38b5-41b5-8085-326079b194ea.png)
-___
-### Fixing common mistakes
+<br><picture><img width=500 src="https://user-images.githubusercontent.com/18624609/222594799-df7648d7-38b5-41b5-8085-326079b194ea.png"></picture>
+
+## Fixing common mistakes
