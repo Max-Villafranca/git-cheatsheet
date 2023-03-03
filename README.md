@@ -1,8 +1,10 @@
-## Setting up Git and SSH
+## Setting up Git, SSH and GitHub
 
 * system  -all users
 * global  -single user all repositories
 * local   -single user single repository
+
+`ssh -T git@github.com` Test SSH connection. [Check fingerprint.](https://docs.github.com/en/authentication/) 
 
 `ls -al ~/.ssh` Checks if existing SSH keys are present.
 
@@ -18,11 +20,12 @@
 
 `git config --global core.editor "code --wait"`
 
-`git ls-files` Shows files in staging area (index).
 
 ## Working with Git
 
 `git commit -am` Stages and commits in one step.
+
+`git ls-files` Shows files in staging area (index).
 
 `git status -s` Short status.
 
