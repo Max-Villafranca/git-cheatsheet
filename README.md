@@ -20,14 +20,28 @@
 
 `git config --global core.editor "code --wait"`
 
+`git clone <URL>` Clones remote repository.
+
+`git init` Creates new local repository.
+
+`git remote -v` Shows short names and URLs of the remote servers.
+
+`git remote add <shortname> <url>` Add remote repository.
+
 
 ## Working with Git
+
+`git fetch <remote>` Downloads changes from the remote repository.
+
+`git pull <remote>` Same as `git fetch` and `git merge` combined.
 
 `git commit -am` Stages and commits in one step.
 
 `git ls-files` Shows files in staging area (index).
 
 `git status -s` Short status.
+
+`git push <remote> <branch>` Pushes changes to remote repository.
 
 `git mv "old name" "new name"` Renames files both on the working dir and staging area.
 
