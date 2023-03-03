@@ -33,5 +33,9 @@
 
 <br><picture><img width=500 src="https://user-images.githubusercontent.com/18624609/222594799-df7648d7-38b5-41b5-8085-326079b194ea.png"></picture>
 
+<br><picture><img width=500 src="https://miro.medium.com/max/1200/1*tjrF1ff5UjVNclwwe_GREg.png"></picture>
+
+
 ## Fixing common mistakes
 
+Read the [book](https://git-scm.com/book/en/v2).
