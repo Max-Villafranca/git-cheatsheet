@@ -26,7 +26,7 @@
 
 `git remote -v` Shows short names and URLs of the remote servers.
 
-`git remote add <shortname> <url>` Add remote repository.
+`git remote add <shortname> <url>` Add [remote] (https://git-scm.com/book/en/v2/Git-Basics-Working-with-Remotes) repository.
 
 
 ## Working with Git
